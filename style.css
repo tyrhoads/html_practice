@@ -1,5 +1,10 @@
 h1{
     font-family:'Trebuchet MS', Arial, sans-serif;
-    color:saddlebrown;
+    color:darkcyan;
     text-align: center;
+}
+
+.menu{
+
+    background-color: rgb(101, 96, 95);
 }
