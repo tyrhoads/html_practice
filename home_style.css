@@ -1,3 +1,29 @@
 body{
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(62, 62, 62);
+    
+
+}
+
+.header{
+
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 2%;
+    font-size: 100;
+}
+
+.logo{
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main{
+    width: 75%;
+    background-color:rgba(242, 242, 242, 0.127);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    
 }
