@@ -9,12 +9,12 @@ body{
     text-align: center;
     color: whitesmoke;
     margin-top: 2%;
-    font-size: 100;
+    font-size: 125px;
 }
 
 .logo{
     display: block;
-    width: 30%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -29,8 +29,9 @@ body{
 }
 
 a:hover{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 a{
-    color: aliceblue;
+    color: rgb(243, 243, 243);
+    text-decoration: none ;
 }
