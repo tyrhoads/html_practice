@@ -1,6 +1,6 @@
 body{
-    background-color: rgb(62, 62, 62);
-    
+    background: linear-gradient( rgb(3, 158, 197),rgb(83, 146, 182) );
+      
 
 }
 
@@ -21,7 +21,7 @@ body{
 
 .main{
     width: 75%;
-    background-color:rgba(242, 242, 242, 0.127);
+    background-color:rgba(212, 212, 212, 0.27);
     margin-left: auto;
     margin-right: auto;
     padding: 0px;
