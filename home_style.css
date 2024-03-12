@@ -9,12 +9,12 @@ body{
     text-align: center;
     color: whitesmoke;
     margin-top: 2%;
-    font-size: 125px;
+    font-size: 75px;
 }
 
 .logo{
     display: block;
-    width: 70%;
+    width: 50%;
     margin-top: -100px;
     margin-left: auto;
     margin-right: auto;
@@ -23,7 +23,7 @@ body{
 
 .main{
     width: 75%;
-    background-color:rgba(212, 212, 212, 0.27);
+    background-color:rgba(0, 0, 0, 0.27);
     margin-left: auto;
     margin-right: auto;
     padding: 0px;
@@ -31,7 +31,7 @@ body{
 }
 
 a:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(26, 72, 110);
 }
 a{
     color: rgb(243, 243, 243);
