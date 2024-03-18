@@ -1,5 +1,6 @@
 body{
     background: linear-gradient( rgb(3, 158, 197),rgb(83, 146, 182) );
+    margin: 0;
       
 
 }
@@ -7,7 +8,7 @@ body{
 .header{
 
     text-align: center;
-    color: whitesmoke;
+    color: rgb(192, 183, 255);
     margin-top: 2%;
     font-size: 75px;
 }
