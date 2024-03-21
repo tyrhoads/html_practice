@@ -49,7 +49,10 @@ body {
     width: 100%;
     height: 100vh;
     margin: 0;
-    background-color: #1b1b32;
+    background-image: url(diane-kruger-5-Enhanced-Edit.jpg);
+    background-repeat: no-repeat;
+  background-size:100%;
+
     color: #f5f6f7;
     font-family: Tahoma;
     font-size: 16px; }   
