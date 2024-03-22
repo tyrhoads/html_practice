@@ -21,7 +21,7 @@
                 <input id="email" type="email" placeholder="janedoe1993@gmail.com"required/>
                 </label>
                 <label for="age">Age
-                <input id="age" type="number" placeholder="18"required min="10" max="99"/>
+                <input id="number" type="number" placeholder="18"required min="10" max="99"/>
                 </label>
             </fieldset>
             <fieldset>
@@ -37,8 +37,20 @@
         </fieldset>
             <fieldset>
             <legend>Books or Movies (required)</legend>
-            <label for="books"><input id="books" type="radio" name="choice" class="inline"  /> Books</label>
-            <label for="Movies"><input id="Movies" type="radio" name="choice" class="inline" checked /> Movies</label>
+            <label for="books"></label>
+                <input id="books" type="radio" name="choice" class="inline" value="b"/> Books
+            </label>
+            <label for="movies"></label>
+            <input id="movies" type="radio" name="choice" class="inline" value="m" /> Movies
+            </label>
+            
+        </fieldset>
+        <fieldset>
+            <label for="about"> About you
+                <textarea id="about" name="about" placeholder="write here about you">
+
+                </textarea>
+            </label>
         </fieldset>
             <label>
                 <button id="submit" type="submit" class="button">
