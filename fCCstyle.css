@@ -1,14 +1,23 @@
-h1{
+h1,p{
     font-family: Futura, 'Times New Roman', Times, serif;
+    color: rgb(232, 205, 1);
 }
 
 input
     {
     display:block;
     margin: 1em auto;
-    background: linear-gradient(90deg, #035a82, #812258, #01547b);
+    background-color: #3b3d3d;
     color: antiquewhite;
+    border-radius: 10px;
+    border-color: #3b3d3d;
     }
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em; } 
 label
     {
     display: block;
@@ -21,7 +30,7 @@ form
     min-width: 300px;
     margin: 0 auto;
     padding: 2em;
-    background-color: #3b3b4f;
+    background-color: #48484b;
     border-radius: 25px;    
     }
     h1, p {
@@ -34,7 +43,7 @@ form
     display: flex;
     justify-content: center;
 }
-input[type="submit"]{
+button[type="submit"]{
     display: block;
     width: 25%;
     height: 2em;
@@ -42,76 +51,23 @@ input[type="submit"]{
     background-color: #727274;
     border-color: white;
     min-width: 200px;
-    color: #ffffff;
-    border-radius: 30%;
+    color: rgb(234, 209, 17);
+    border-radius: 25px;
 }
 body {
     width: 100%;
-    height: 100vh;
+    height: 250vh;
     margin: 0;
     background-image: url(diane-kruger-5-Enhanced-Edit.jpg);
     background-repeat: no-repeat;
-  background-size:100%;
+    background-size:100%;
 
     color: #f5f6f7;
     font-family: Tahoma;
     font-size: 16px; }   
-
-    button {
-        text-decoration: none;
-        position: relative;
-        border: none;
-        font-size: 14px;
-        font-family: inherit;
-        cursor: pointer;
-        color: #fff;
-        width: 9em;
-        height: 3em;
-        line-height: 2em;
-        text-align: center;
-        background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
-        background-size: 300%;
-        border-radius: 30px;
-        z-index: 1;
-        
+    
+    .inline{
+        display: inline; 
       }
-      
-      button:hover {
-        animation: ani 8s linear infinite;
-        border: none;
-      }
-      
-      @keyframes ani {
-        0% {
-          background-position: 0%;
-        }
-      
-        100% {
-          background-position: 400%;
-        }
-      }
-      
-      button:before {
-        content: "";
-        position: absolute;
-        top: -5px;
-        left: -5px;
-        right: -5px;
-        bottom: -5px;
-        z-index: -1;
-        background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
-        background-size: 400%;
-        border-radius: 35px;
-        transition: 1s;
-      }
-      
-      button:hover::before {
-        filter: blur(20px);
-      }
-      
-      button:active {
-        background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
-      }
-
-      
+    
       
