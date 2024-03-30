@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+header{
+    
+    background-color: rgb(110, 110, 110);
+    padding: 10px;
+    max-width: 80%;
+    margin: auto;
+    border-radius: 25px;
+}
+main{
+    background-color: black;
+}
