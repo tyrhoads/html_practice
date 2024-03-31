@@ -1,15 +1,24 @@
 h1{
     text-align: center;
-    color: aliceblue;
+    color: rgb(42, 42, 42);
 }
 header{
     
-    background-color: rgb(110, 110, 110);
+    
     padding: 10px;
     max-width: 80%;
     margin: auto;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 main{
-    background-color: black;
+    background-color: rgb(194, 194, 194);
+    padding: 10px;
+    border-radius: 10px;
+}
+html{
+    padding: 25px;
+}
+figcaption{
+    color: rgb(42, 42, 42);
+    text-align: center;
 }
