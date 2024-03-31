@@ -10,15 +10,28 @@ header{
     margin: auto;
     border-radius: 10px;
 }
+body{
+    background-color: rgb(226, 226, 226);
+    margin: 25px;
+    
+
+}
 main{
-    background-color: rgb(194, 194, 194);
-    padding: 10px;
+    background-color: rgb(213, 213, 213);
+    padding: 0 5% 0 5%;
+    border-radius: 10px;
     border-radius: 10px;
 }
 html{
     padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
 }
 figcaption{
     color: rgb(42, 42, 42);
     text-align: center;
+}
+#image{
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
 }
