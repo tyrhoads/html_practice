@@ -12,15 +12,15 @@ header{
 }
 body{
     background-color: rgb(226, 226, 226);
-    margin: 25px;
+    margin: 50px;
     
 
 }
 main{
     background-color: rgb(213, 213, 213);
-    padding: 0 5% 0 5%;
+    padding: 0 20% 0 20%;
     border-radius: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 html{
     padding: 25px;
@@ -33,5 +33,5 @@ figcaption{
 #image{
     max-width: 100%;
     height: auto;
-    border-radius: 25px;
+    border-radius: 5px;
 }
