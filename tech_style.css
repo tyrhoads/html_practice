@@ -14,7 +14,28 @@ a{
     margin-left: 310px;
     padding: 20px;
     margin-bottom: 110px;
+    
   }
-  #nav-bar li{
+  #nav-bar li {
+    color: #4d4e53;
+    border-top: 1px solid;
     list-style: none;
+    position: relative;
+    width: 100%;
+  }
+  body{
+    background-color: #f3f3f3;
+  }
+  #nav-bar a {
+    display: block;
+    padding: 10px 30px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #nav-bar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
