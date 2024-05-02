@@ -1,0 +1,16 @@
+#nav-bar{
+    color:rgb(32, 32, 110);
+    width:200px;
+    position: fixed;
+    border-right:solid darkblue;
+    height: 100%;
+}
+a{
+    color:rebeccapurple;
+}
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+  }
