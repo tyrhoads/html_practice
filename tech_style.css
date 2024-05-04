@@ -1,4 +1,4 @@
-#nav-bar{
+#navbar{
     color:rgb(32, 32, 110);
     width: 250px;
     position: fixed;
@@ -33,9 +33,17 @@ a{
     text-decoration: none;
     cursor: pointer;
   }
-  #nav-bar ul {
+  #navbar ul {
     height: 88%;
     padding: 0;
     overflow-y: auto;
     overflow-x: hidden;
   }
+  header{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  @media (max-width: 768px) {
+    #navbar {
+      width: 358px;
+    }
