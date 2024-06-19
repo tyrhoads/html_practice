@@ -2,11 +2,18 @@
     width: 25%;
     height: auto;
     border-radius: 50%;
-    border-style:none;
+    border: 1rem;
+    border-style:solid;
+    border-color: beige;
+    filter: grayscale(100%);
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+   
    
     
     
 }
 body{
-    background-color: rgb(62, 77, 94);
+    background-color: rgb(59, 61, 63);
 }
