@@ -4,7 +4,7 @@
     border-radius: 50%;
     border: 1rem;
     border-style:solid;
-    border-color: beige;
+    border-color: rgb(86, 86, 86);
     filter: grayscale(100%);
     display: block;
     margin: auto;
@@ -15,5 +15,5 @@
     
 }
 body{
-    background-color: rgb(59, 61, 63);
+    background-color: rgb(221, 221, 221);
 }
