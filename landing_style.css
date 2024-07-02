@@ -6,7 +6,6 @@
     border-style:solid;
     border-color: rgb(86, 86, 86);
     filter: grayscale(100%);
-    display: block;
     margin: auto;
     margin-top: 3rem;
    
@@ -16,10 +15,19 @@
 }
 body{
     background-color: rgb(221, 221, 221);
+    
+    
 }
 
 #gif{
     width: auto;
     height: 200px;
     border-radius: 50%;
+}
+
+nav{
+    height: 70px;
+   line-height: 70px;
+   
+   float: right;
 }
