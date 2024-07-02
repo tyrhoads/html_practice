@@ -17,3 +17,9 @@
 body{
     background-color: rgb(221, 221, 221);
 }
+
+#gif{
+    width: auto;
+    height: 200px;
+    border-radius: 50%;
+}
