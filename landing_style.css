@@ -1,13 +1,10 @@
 #header-img{
-    width: 25%;
+    width: 10%;
     height: auto;
-    border-radius: 50%;
-    border: 1rem;
-    border-style:solid;
-    border-color: rgb(86, 86, 86);
     filter: grayscale(100%);
-    margin: auto;
-    margin-top: 3rem;
+    margin: 1rem;
+   
+    
    
    
     
