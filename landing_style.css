@@ -20,11 +20,17 @@ body{
     width: auto;
     height: 200px;
     border-radius: 50%;
+    filter: grayscale(100%);
 }
 
 nav{
     height: 70px;
    line-height: 70px;
-   
+  
    float: right;
 }
+a {
+    color: #000;
+    text-decoration: none;
+  }
+  
