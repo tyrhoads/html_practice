@@ -10,6 +10,10 @@
     
     
 }
+header{
+    position: fixed;
+}
+
 body{
     background-color: rgb(221, 221, 221);
     
@@ -26,11 +30,20 @@ body{
 nav{
     height: 70px;
    line-height: 70px;
-  
+  display:flex;
    float: right;
+  
+   
 }
 a {
+    
+    flex-direction: row;
+    justify-content: space-around;
     color: #000;
     text-decoration: none;
+    
   }
   
+  @media (max-width: 1000px) {
+    
+    }
