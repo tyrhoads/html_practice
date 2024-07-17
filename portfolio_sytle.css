@@ -1,0 +1,21 @@
+#welcome-section{
+    height: 100vh;
+    background-color: rgb(26, 26, 26);
+    
+   
+}
+#welcome-section h1{
+   
+    font-size:6vw;
+    text-align: center;
+    margin: auto;
+    color: #afafaf;
+    padding-top: 35vh;
+    font-family: Goudy Old Style, serif;
+   
+   
+}
+
+body{
+    background-color: rgb(201, 201, 201);
+}
