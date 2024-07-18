@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
 html{
     box-sizing: border-box;
 
@@ -5,33 +10,41 @@ html{
 .welcome-section{
     height: 100vh;
     width: 100%;
-    background-color: rgb(26, 26, 26);
-    font-size:4vw;
-    color: #afafaf;
+    background-color:  #171717;
+    color: #DEDEDE;
     font-family: Goudy Old Style, serif;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0px;
+   
  
     
    
 }
+.welcome-section h1{
+    font-size:5vw;
+}
+.welcome-section p{
+    font-size:2vw;
+    color:#FFB300;
+}
+
 
 body{
     background-color: rgb(201, 201, 201);
     overflow: scroll;
+   
 }
 .nav-bar{
     
-    height: 8vh;
+    height: 10vh;
     width: 100%;
     background: linear-gradient(0deg, #FFB300,#9d7111);
-    text-align: right;
-    padding-top: 3%;
+    display: flex;
     position: fixed;
-        
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: right;
     top: 0;
     left: 0;
     z-index: 10;
@@ -39,8 +52,12 @@ body{
 }
 a{
     padding-right: 2%;
-    
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Goudy Old Style;
 }
 html{
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
