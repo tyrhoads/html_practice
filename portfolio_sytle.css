@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
   }
-  
-html{
+  html{
+    scroll-behavior: smooth;
     box-sizing: border-box;
-
+}
+body{
+    background-color: rgb(201, 201, 201);
+    overflow: scroll;
+   
 }
 .welcome-section{
     height: 100vh;
@@ -28,14 +32,11 @@ html{
 .welcome-section p{
     font-size:2vw;
     color:#FFB300;
+    padding-top: 10px;
 }
 
 
-body{
-    background-color: rgb(201, 201, 201);
-    overflow: scroll;
-   
-}
+
 .nav-bar{
     
     height: 10vh;
@@ -56,8 +57,29 @@ a{
     font-size: 25px;
     font-weight: bold;
     font-family: Goudy Old Style;
+    text-decoration: none;
+    color:#171717;
 }
-html{
-    scroll-behavior: smooth;
-    box-sizing: border-box;
+a:hover{
+    padding-right: 2%;
+    margin: 8px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Goudy Old Style;
+    text-decoration: none;
+    color:#171717;
+
+}
+
+.port{
+    height:230vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: #535353;
+ 
+}
+
+img{
+
 }
