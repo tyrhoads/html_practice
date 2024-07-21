@@ -60,18 +60,9 @@ a{
     text-decoration: none;
     color:#171717;
 }
-a:hover{
-    padding-right: 2%;
-    margin: 8px;
-    font-size: 35px;
-    font-weight: bold;
-    font-family: Goudy Old Style;
-    text-decoration: none;
-    color:#171717;
 
-}
 
-.port{
+.porjects{
     height:140vh;
     width: 100%;
     display: grid;
@@ -92,3 +83,15 @@ img:hover{
     border: 1px solid rgb(255, 255, 255);
     
 }
+footer{
+    text-align: right;
+    height: 10vh;
+    display: flex;
+    justify-content: right;
+    align-items: center  ;
+}
+@media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
