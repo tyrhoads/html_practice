@@ -37,6 +37,10 @@ function getRandomComputerResult() {
   const resetGameBtn = document.getElementById("reset-game-btn");
   
   function showResults(userOption) {
+    roundResultsMsg.innerText = getRoundResults(userOption);
+    computerScoreSpanElement.innerText = computerScore;
+    playerScoreSpanElement.innerText = playerScore;
+  
     if (playerScore === 3 || computerScore === 3) {
       winnerMsgElement.innerText = `${
         playerScore === 3 ? "Player" : "Computer"
@@ -47,6 +51,19 @@ function getRandomComputerResult() {
     }
   
   };
+  function resetGame() {
+    playerScore =0;
+    computerScore =0;
+    computerScoreSpanElement.innerText = 0;
+    playerScoreSpanElement.innerText = 0;
+    roundResultsMsg.innerText ='';
+    winnerMsgElement.innerText ='';
+    resetGameBtn.style.display = "none";
+    optionsContainer.style.display = "block";
+  
+  };
+  
+  resetGameBtn.addEventListener("click", resetGame);
   
   const rockBtn = document.getElementById("rock-btn");
   const paperBtn = document.getElementById("paper-btn");
