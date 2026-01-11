@@ -1,3 +1,7 @@
+html{
+      scroll-behavior: smooth;
+      background-color: black;
+}
 .mainBod {
       display: flex;
       background-image: url("images/bistroMainImage.jpg");
@@ -26,18 +30,81 @@
 #branding {
       display: flex;
       flex-direction: column;
-      align-items: flex-start;  /* aligns text/logo to left of branding */
-      gap: 50px;                /* spacing between name and logo */
+      align-items: flex-start;
+      gap: 50px;
+
+
+
 }
 
-/* Logo styling */
-#logo {
-      margin-top: 30px;
-      width: 550px;
+
+
+#name {
+      width: 50vw;
       height: auto;
+
+}
+#logoContainer{
+      width: 600px;
+      height: 600px;
+      position: relative;
+
+}
+#logoContainer.spinning #wheel{
+      animation: spinWheel 3s ease-out forwards;
+      transform-origin: center;
+}
+#logoContainer.spinning #backWheel{
+      animation: spinWheel 3s ease-out forwards;
+      transform-origin: center;
+}
+#logo {
+
+      margin-top: 30px;
+      width: 100%;
+      height: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
       filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.2));
+      z-index: 1;
+
+}
+#wheel{
+
+      width:50%;
+      height: auto;
+      position: absolute;
+      top:31.8%;
+      left: 9.5%;
+      filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.2));
+      z-index: 2;
+
+
 }
 
+#backWheel{
+
+      width:26%;
+      height: auto;
+      position: absolute;
+      top: 63.5%;
+      left: 73.5%;
+      filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.2));
+      z-index:3;
+
+
+
+}
+
+@keyframes spinWheel {
+      from {
+            transform: rotate(360deg);
+      }
+      to {
+            transform: rotate(0deg);
+      }
+}
 /* Navigation vertical on right, centered vertically */
 #navBar {
       display: flex;
@@ -47,30 +114,23 @@
       align-items: flex-end;
       margin-right: 150px;
 
+
 }
 
 #navBar a {
       text-decoration: none;
       color: white;
-      font:  35px "Lucida Grande", Verdana, sans-serif;
+      font:  35px "Lucida Grande", Futura, sans-serif;
       display: block;
       padding: 30px 30px;
       transition: transform 0.3s ease;
 }
 
 #navBar a:hover {
-      filter: glow(white);
+      filter: drop-shadow(0px 1px 3px rgb(213, 167, 10));
       transform: scale(1.1);
 }
 
-#name {
-      width: 50vw;
-      height: auto;
-}
-html{
-      scroll-behavior: smooth;
-      background-color: black;
-}
 footer {
       flex-shrink: 0;
       text-align: center;
