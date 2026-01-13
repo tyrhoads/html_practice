@@ -24,6 +24,7 @@ async function getPublicCalendarEvents() {
         console.error('Error fetching calendar events:', error);
         document.getElementById('events-list').innerHTML = '<p>Unable to load events.</p>';
     }
+
 }
 
 function displayEvents(events) {
@@ -37,13 +38,27 @@ function displayEvents(events) {
 
     events.forEach(event => {
         const start = event.start.dateTime || event.start.date;
+        const endRaw = event.end.dateTime || event.end.date;
         const date = new Date(start);
-        const options = { weekday: 'short', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' };
-        const formattedDate = date.toLocaleString(undefined, options);
+        const endDate = new Date(endRaw);
+
+
+
+        const formattedDate = date.toLocaleString(undefined,
+            { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' })
+            +
+            ' – ' +
+            endDate.toLocaleTimeString(undefined, {
+                hour: '2-digit',
+                minute: '2-digit'
+            });;
 
         const li = document.createElement('li');
-        li.innerHTML = `<strong>${event.summary}</strong> — ${formattedDate}`;
+        li.innerHTML = `<div id="musicSummary">${event.summary}</div>
+        <div id="musicDate">${formattedDate}</div>`;
         eventsList.appendChild(li);
+
+
     });
 }
 
