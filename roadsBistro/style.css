@@ -1,6 +1,9 @@
 html{
       scroll-behavior: smooth;
-      background-color: #1c1c1c;
+      background-color: #1f1404;
+      background-image: url("images/backGroundBike.svg");
+      background-size: cover;
+      background-repeat: no-repeat;
 }
 body{
 
@@ -12,19 +15,21 @@ body{
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center;
-      height: 100vh;
+      height: 110vh;
       width: 100%;
       flex-direction: column;
       margin: 0;
       scroll-behavior: smooth;
+      mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
 
 }
+
 
 #header {
       display: flex;
       justify-content: space-between; /* name/logo left, nav right */
       align-items: center;            /* vertical centering */
-      padding: 100px 1vw 10px 12vh;
+      padding: 50px 1vw 10px 12vh;
 
 
 }
@@ -48,6 +53,7 @@ body{
 
 }
 #restName{
+      margin-left: 5%;
       width: 25vw;
       height: auto;
 
@@ -75,7 +81,7 @@ body{
       top: 0;
       left: 0;
       filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.2));
-      z-index: 1;
+      z-index: 3;
 
 }
 #wheel{
@@ -86,7 +92,7 @@ body{
       top:31.8%;
       left: 9.5%;
       filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.2));
-      z-index: 2;
+      z-index: 1;
 
 
 }
@@ -99,7 +105,7 @@ body{
       top: 63.5%;
       left: 73.5%;
       filter: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.2));
-      z-index:3;
+      z-index:2;
 
 
 
@@ -151,11 +157,11 @@ footer {
       flex-shrink: 0;
       text-align: center;
       padding: 20px;
-      background-color: #0c0c0c;
+      background-color: #100a02;
       color: white;
 }
 .black{
-      background-color: #0c0c0c;
+
       height: 1000px;
 }
 html, body {
@@ -168,15 +174,22 @@ html, body {
 h1,h2{
       text-align: center;
       color: white;
-      font-family: Futura, sans-serif;
+      font-family: "Helvetica Neue", sans-serif;
+      font-size: 5vw;
+      margin-top: 10vh;
+}
+#siteHeaders{
+      font-family: "Helvetica Neue", sans-serif;
+      font-size: 50px;
 }
 #calendar {
 
-      background: #4d4d4d;
+
       color: #fff;
-      padding: 20px;
+      padding: 10px;
+
       border-radius: 10px;
-      width: 75vw;
+      width: 60vw;
       margin: 0 auto;
 }
 #events-list{
@@ -185,29 +198,29 @@ h1,h2{
       flex-wrap: wrap; /* Allows items to wrap to a new column */
       height: auto; /* Crucial: a fixed height is needed for wrapping to occur */
       list-style-type: none;
-      gap: 10px;
+      gap: 8px;
       overflow: hidden;
-     justify-content: center;
+     text-align: left;
+
 }
 #events-list li {
       width: 45%;
       height: auto;
       margin-bottom: 15px;
       padding: 10px;
-      background: #3d3d3d;
       border-radius: 5px;
       color: white;
       list-style: none;
-      font-family: Futura, sans-serif;
       align-content: center;
+
 }
 #jazzContainer{
       margin-left: auto;
       margin-right: auto;
-      width:90vw;
+      width:100vw;
       height: 50vh;
       overflow: hidden;
-      border-radius: 26px;
+
 
 
 
@@ -221,4 +234,56 @@ h1,h2{
       height: 100%;
 
 
+
+
+}
+#musicSummary{
+      font-size: 2rem;     /* bigger title */
+      font-weight: 500;
+      margin-bottom:0px;
+      font-family: "Helvetica Neue", sans-serif;
+
+}
+#musicDate{
+      font-size: 1.3rem;    /* smaller date/time */
+      opacity: 0.8;
+      font-weight:300 ;
+      font-family: "Helvetica Neue", sans-serif;}
+
+#UpperNavBar{
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      align-items: center;
+      width: 100%;
+      height: 60px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      background-color: #150e01;
+      gap: 15vh;
+      transition: transform 0.5s ease;
+      font-family: "Helvetica Neue", sans-serif;
+      font-weight: 500;
+      mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+      padding-bottom: 40px;
+      padding-left: 2vw;
+
+}
+#UpperNavBar a{
+      text-decoration: none;
+      color: white;
+      font:  25px  "Helvetica Neue", sans-serif;
+      transition: transform 0.3s ease;
+}
+#UpperNavBar a:hover{
+      filter: drop-shadow(0px 1px 3px rgb(213, 167, 10));
+      transform: scale(1.1);
+}
+#UpperNavBar.hidden {
+      transform: translateY(-100%);
+}
+#menuHeaders{
+      font-size: 3.5vw;
 }
