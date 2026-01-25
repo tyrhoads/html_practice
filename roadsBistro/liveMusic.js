@@ -2,7 +2,7 @@ const CALENDAR_ID =
     '5e02ed53d168186921c77d383ed856b720fe696921ced1ff8df524d4841ddc29@group.calendar.google.com';
 
 const API_KEY = 'AIzaSyDflhLsg1H039ahVAtdfX_zXRpzMGQm3CU';
-const MAX_RESULTS = 26;
+const MAX_RESULTS = 30;
 
 const API_URL =
     `https://www.googleapis.com/calendar/v3/calendars/${CALENDAR_ID}/events` +
